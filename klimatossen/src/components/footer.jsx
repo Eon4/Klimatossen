@@ -18,27 +18,37 @@ info@klima-tossen.dk
         </p>
       </article>
       <article>
-        <h2>Kontakt</h2>
-        <p>Kontakt os her:</p>
+        <h2>SAMARBEJDSPARTNERE:</h2>
         <p>
-          email@mail.dk <br />
-          Tlf: 0192 3023
+https://www.dn.dk/
+http://www.miljoeportal.dk
         </p>
+        <h1>KLIMATOSSEN</h1>
       </article>
       <article>
-        <h2>Politik</h2>
-        <p>Vores politikker:</p>
-        <p>
-          <a href="#">Privatlivspolitk</a>
-          <a href="#">Cookiepolitik</a>
-          <a href="#">Generalle betingelse</a>
-        </p>
+        <h2>Ja tak! Jeg vil gerne høre mere.</h2>
       </article>
-      <article>
-        <h2>Sociale medier</h2>
-        {/* <img className={style.iconfacebook} src={iconface} alt="Logo/link to Facebook" />
-        <img className={style.iconlinkedin} src={iconlinked} alt="Logo/link to LinkedIn" /> */}
-      </article>
+      <form action="Thanks.html" novalidate onsubmit="return validate(this);" class="myform">
+        <fieldset id="signup">
+          {/* <legend>Signup Form</legend> */}
+            <input type="text" id="fname" name="fname" placeholder="Fulde navn" required />
+
+            <input type="text" id="city" name="city" placeholder="Hjem by" required />
+
+            <input type="email" id="email" name="email" placeholder="Email Address" required />
+
+            <input type="checkbox" id="talk" name="talk" value="letstalk"/>
+            <label for="talk">Få en samtale med Klimatossen</label>
+
+            
+            <input type="checkbox" id="news" name="news" value="getnews"/>
+            <label for="talk">Modtag Nyhedsbrev</label>
+
+            <input type="tel" id="phone" name="phone" placeholder="Telefon nummer" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></input>
+        
+            <input type="submit" value="Submit" />
+      </fieldset>
+      </form>
     </footer>
   );
 }
