@@ -1,3 +1,4 @@
+import React from 'react';
 import style from '../style/header.module.scss'
 import HeaderImg from  '../assets/images/Bg-Hero-Blue.png'
 
