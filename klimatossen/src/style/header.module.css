@@ -1,1 +1,26 @@
-/*# sourceMappingURL=header.module.css.map */
+.title {
+  font-family: "Jura", sans-serif;
+  color: #ffffff;
+  font-size: 8rem;
+  position: absolute;
+}
+.title span {
+  color: #381bbc;
+  font-size: 8rem;
+}
+
+.smalltitle {
+  color: #ffffff;
+  font-size: 1rem;
+  position: absolute;
+  top: 250px;
+}
+
+.Headerimg {
+  width: 100%;
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 842px;
+  border-top: 10px;
+}/*# sourceMappingURL=header.module.css.map */
