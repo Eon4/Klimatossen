@@ -6,7 +6,6 @@
     background-color: #738699; 
     display: grid;
     justify-items: end;
-    padding-right: 1rem;
     div {
         // margin: 0;
         // display: grid;
@@ -17,7 +16,7 @@
         a {
             font-family: sans-serif;
             color: rgb(255, 255, 255);
-            margin: 4px;
+            // margin: 4px;
             font-size: 1.5em;
             word-spacing: 5px;
             cursor: pointer;
