@@ -1,18 +1,16 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.css'
+import { Header } from './components/header'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export const App = () => {
   return (
     <>
-
-      <h1>Lets gooo!</h1>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      {/* <Navigation /> */}
+      <Header/>
+      {/* <Cards/>
+      <SectionOne/>
+      <SectionTwo/>
+      <Footer/> */}
     </>
-  )
-}
-
-export default App
+  );
+};
