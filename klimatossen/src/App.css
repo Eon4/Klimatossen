@@ -1,6 +1,24 @@
-#root {
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap");
+
+:root {
+  --greyblue: #8fa7bf;
+  --grey: #738699;
+  --earthgold:#bbbf8f;
+  --darkearthgold:#969973;
+  --rose:#bfa89d;
+  --darkrose:#806a5f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
+} */

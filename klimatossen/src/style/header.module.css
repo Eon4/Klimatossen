@@ -1,19 +1,29 @@
 .title {
   font-family: "Jura", sans-serif;
   color: #ffffff;
-  font-size: 8rem;
   position: absolute;
+  font-weight: 400;
+  font-size: 8rem;
 }
 .title span {
-  color: #381bbc;
+  color: #738699;
   font-size: 8rem;
 }
 
 .smalltitle {
+  font-weight: 400;
+  font-size: 1.5rem;
   color: #ffffff;
-  font-size: 1rem;
   position: absolute;
   top: 250px;
+}
+
+.headertext {
+  font-weight: 300;
+  font-size: 1.375rem;
+  font-style: italic;
+  position: absolute;
+  top: 450px;
 }
 
 .Headerimg {
