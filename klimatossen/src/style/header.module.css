@@ -1,29 +1,38 @@
 .title {
-  font-family: "Jura", sans-serif;
+  font-family: sans-serif;
   color: #ffffff;
   position: absolute;
   font-weight: 400;
-  font-size: 8rem;
+  font-size: 10rem;
+  margin: 20px;
 }
 .title span {
+  font-family: sans-serif;
   color: #738699;
-  font-size: 8rem;
+  font-size: 10rem;
 }
 
 .smalltitle {
+  font-family: sans-serif;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   color: #ffffff;
   position: absolute;
-  top: 250px;
+  top: 170px;
+  left: 520px;
 }
 
 .headertext {
+  font-family: sans-serif;
   font-weight: 300;
-  font-size: 1.375rem;
+  font-size: 2.3rem;
   font-style: italic;
   position: absolute;
+  color: #8fa7bf;
+  text-align: right;
   top: 450px;
+  right: 16px;
+  margin: 20px;
 }
 
 .Headerimg {
