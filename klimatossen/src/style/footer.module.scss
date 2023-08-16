@@ -1,52 +1,6 @@
 
-//   .myform {
-//     display: flex;
-//     justify-content: center;
-//     margin-top: 5%;
-//     align-items: center;
-//   }
-
-
-//   .myform fieldset{
-//     display: flex;
-//     flex-direction: column;
-//     gap: 0.5rem;
-//   }
-//   .myform legend{
-//     font-size: 1.5rem;
-//     font-family: Mountains of Christmas;
-//     color: var(--gold);
-//     font-weight: bold;
-//   }
-//   .myform label{
-//     font-size: 0.8rem;
-//     color: var(--gold);
-//     font-family: sans-serif;
-
-//   }
-//   .myform input{
-//     padding: 0.3rem;
-    
-//   }
-//   /* BUTTON STYLING */
-//   .myform input[type=submit]{
-//     margin-top: 0.5rem;
-//     padding: 0.6rem;
-//     background-color: var(--christmastree);
-//     color: var(--light);
-//     border: none;
-//     cursor: pointer;
-//     filter: saturate(0.6);
-//     transition: 400ms;
-//   }
-//   .myform input[type=submit]:hover{
-//     filter: saturate(1.2);
-//     color: var(--rudolfnose);
-//   }
-
 footer {
-    background-image: url(../../assets/Bg-Tile-Blue-Dark.png);
-    width: 100%;
+    // width: 100%;
     color: white;
     background-color: #738699;
     div {
@@ -92,11 +46,28 @@ footer {
           border: none;
           padding: 5px;
         }
+        label{
+            color: rgb(255, 255, 255);
+            text-align: left;
+            font-size: 20px;
+        }
         .checkbox {
-          display: flex;
-        //   align-content: space-between;
-          width: 60%;
+          display: grid;
+          flex-direction: column;
+          grid-template-columns: 1fr 1fr;
+          width: 5%;
           cursor: pointer;
+          padding: 20px;
+        }
+        .send{
+            color: rgb(255, 255, 255);
+            font-family: sans-serif;
+            font-size: large;
+            cursor: pointer;
+
+        }
+        .send:hover{
+            color: rgb(0, 0, 0);
         }
       }
     }

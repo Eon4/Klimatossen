@@ -1,6 +1,4 @@
 footer {
-  background-image: url(../../assets/Bg-Tile-Blue-Dark.png);
-  width: 100%;
   color: white;
   background-color: #738699;
 }
@@ -39,13 +37,30 @@ footer div form {
   padding-top: 10px;
 }
 footer div form input[type=text], footer div form input[type=email], footer div form input[type=tel], footer div form input[type=Submit] {
-  width: 60%;
+  width: 100%;
   background-color: #8fa7bf;
   border: none;
   padding: 5px;
 }
+footer div form label {
+  color: rgb(255, 255, 255);
+  text-align: left;
+  font-size: 20px;
+}
 footer div form .checkbox {
-  display: flex;
-  width: 60%;
+  display: grid;
+  flex-direction: column;
+  grid-template-columns: 1fr 1fr;
+  width: 5%;
   cursor: pointer;
+  padding: 20px;
+}
+footer div form .send {
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-size: large;
+  cursor: pointer;
+}
+footer div form .send:hover {
+  color: rgb(0, 0, 0);
 }/*# sourceMappingURL=footer.module.css.map */

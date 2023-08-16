@@ -33,11 +33,13 @@ export function Footer() {
           <input type="text" placeholder="Hjem by" />
           <input type="email" placeholder="Email adresse" />
           <input type="tel" placeholder="Telefon nummer" />
+          <div>
           <label htmlFor="">Få en samtale med Klimatossen </label>
           <input className={style.checkbox} type="checkbox" />
           <label htmlFor="">Modtag Nyhedsbrev</label>
           <input className={style.checkbox} type="checkbox" />
-          <input type="Submit" value="Send" />
+          </div>
+          <input className={style.send}  type="Submit" value="Send" />
         </form>
       </section>
       </div>
