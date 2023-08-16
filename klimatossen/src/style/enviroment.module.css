@@ -1,1 +1,47 @@
-/*# sourceMappingURL=enviroment.module.css.map */
+.climate {
+  color: white;
+  margin: 50px;
+  background-color: #738699;
+}
+.climate h2 {
+  text-align: center;
+  font-size: 40px;
+}
+.climate .sections {
+  display: grid;
+  gap: 0.5em;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+}
+.climate .sections .imageSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.climate .sections .textSection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.climate .sections .textSection p {
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  padding: 5px;
+}
+.climate .sections .textSection p.important {
+  font-weight: bolder;
+  font-size: 30px;
+}
+.climate .sections a {
+  text-align: right;
+  color: white;
+  text-decoration: underline;
+}
+.climate .sections a:hover {
+  text-align: right;
+  color: rgb(23, 232, 23);
+  cursor: pointer;
+}/*# sourceMappingURL=enviroment.module.css.map */
