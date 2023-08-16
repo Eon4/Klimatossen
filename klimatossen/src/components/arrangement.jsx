@@ -12,9 +12,7 @@ export function Arrangement() {
   - Tag famillien med på en dag for naturen og vores fremtid..
   - Tilmeld dig eet af vore arrangementer, eller modtag
    information om Klimatossen!
-  - Hent mere information på siden “Tilmeld Dig”.
-  
-`;
+  - Hent mere information på siden “Tilmeld Dig”.`;
 
   const lines = text.split("\n");
 

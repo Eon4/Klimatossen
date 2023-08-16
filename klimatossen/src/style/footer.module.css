@@ -37,7 +37,7 @@ footer div form {
   padding-top: 10px;
 }
 footer div form input[type=text], footer div form input[type=email], footer div form input[type=tel], footer div form input[type=Submit] {
-  width: 100%;
+  width: 60%;
   background-color: #8fa7bf;
   border: none;
   padding: 5px;
