@@ -1,1 +1,47 @@
-/*# sourceMappingURL=contribute.module.css.map */
+.contribute {
+  color: white;
+  margin: 50px;
+  background-color: rgb(148, 155, 114);
+}
+.contribute h2 {
+  text-align: center;
+  font-size: 40px;
+}
+.contribute .sections {
+  display: grid;
+  gap: 0.5em;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+}
+.contribute .sections .imageSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contribute .sections .textSection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.contribute .sections .textSection p {
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  padding: 5px;
+}
+.contribute .sections .textSection p.important {
+  font-weight: bolder;
+  font-size: 30px;
+}
+.contribute .sections a {
+  text-align: right;
+  color: white;
+  text-decoration: underline;
+}
+.contribute .sections a:hover {
+  text-align: right;
+  color: rgb(23, 232, 23);
+  cursor: pointer;
+}/*# sourceMappingURL=contribute.module.css.map */
