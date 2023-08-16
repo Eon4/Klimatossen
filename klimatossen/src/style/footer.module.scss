@@ -43,3 +43,61 @@
 //     filter: saturate(1.2);
 //     color: var(--rudolfnose);
 //   }
+
+footer {
+    background-image: url(../../assets/Bg-Tile-Blue-Dark.png);
+    width: 100%;
+    color: white;
+    background-color: #738699;
+    div {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 50px;
+    //   max-width: 1800px;
+  
+      h5 {
+        font-size: 1.5rem;
+        padding-top: 20px;
+      }
+      .npo {
+        p {
+          padding-top: 20px;
+        }
+        ul {
+          padding-bottom: 10px;
+          li {
+            list-style-type: none;
+  
+            a {
+              color: white;
+            }
+          }
+        }
+        h1 {
+          font-size: 2.5rem;
+          text-transform: uppercase;
+          span {
+            color: #8fa7bf;
+          }
+        }
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding-top: 10px;
+        input[type=text],input[type=email] ,input[type=tel], input[type=Submit] {
+          width: 60%;
+          background-color: #8fa7bf;
+          border: none;
+          padding: 5px;
+        }
+        .checkbox {
+          display: flex;
+        //   align-content: space-between;
+          width: 60%;
+          cursor: pointer;
+        }
+      }
+    }
+  }
