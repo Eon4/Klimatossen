@@ -1,6 +1,8 @@
 footer {
   color: white;
   background-color: #738699;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 footer div {
   display: grid;
@@ -10,6 +12,9 @@ footer div {
 footer div h5 {
   font-size: 1.5rem;
   padding-top: 20px;
+}
+footer div .npo {
+  text-align: left;
 }
 footer div .npo p {
   padding-top: 20px;
