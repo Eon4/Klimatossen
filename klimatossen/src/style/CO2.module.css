@@ -3,7 +3,45 @@
   margin: 50px;
   background-color: #806a5f;
 }
-
-h2 {
+.co2 h2 {
   text-align: center;
+  font-size: 30px;
+}
+.co2 .sections {
+  display: grid;
+  gap: 0.5em;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+}
+.co2 .sections .imageSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.co2 .sections .textSection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.co2 .sections .textSection p {
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  padding: 5px;
+}
+.co2 .sections .textSection p.important {
+  font-weight: bolder;
+  font-size: 30px;
+}
+.co2 .sections a {
+  text-align: right;
+  color: white;
+  text-decoration: underline;
+}
+.co2 .sections a:hover {
+  text-align: right;
+  color: rgb(23, 232, 23);
+  cursor: pointer;
 }/*# sourceMappingURL=CO2.module.css.map */
