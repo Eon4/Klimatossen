@@ -1,1 +1,47 @@
-/*# sourceMappingURL=arrangement.module.css.map */
+.arrangement {
+  color: white;
+  margin: 50px;
+  background-color: #bfa89d;
+}
+.arrangement h2 {
+  text-align: center;
+  font-size: 40px;
+}
+.arrangement .sections {
+  display: grid;
+  gap: 0.5em;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+}
+.arrangement .sections .imageSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrangement .sections .textSection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.arrangement .sections .textSection p {
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  padding: 5px;
+}
+.arrangement .sections .textSection p.important {
+  font-weight: bolder;
+  font-size: 30px;
+}
+.arrangement .sections a {
+  text-align: right;
+  color: white;
+  text-decoration: underline;
+}
+.arrangement .sections a:hover {
+  text-align: right;
+  color: rgb(23, 232, 23);
+  cursor: pointer;
+}/*# sourceMappingURL=arrangement.module.css.map */

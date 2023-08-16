@@ -1,0 +1,56 @@
+.arrangement {
+    color: white;
+    margin: 50px;
+    background-color: #bfa89d;
+  
+    h2 {
+      text-align: center;
+      font-size: 40px;
+  
+    }
+  
+    .sections {
+      display: grid;
+      gap: 0.5em;
+      grid-template-columns: 1fr 1fr;
+      justify-content: center;
+      align-items: center;
+      margin: 3%;
+  
+      .imageSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .textSection {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+  
+        p {
+          color: white;
+          font-size: 20px;
+          text-align: left;
+          padding: 5px;
+  
+          &.important {
+            font-weight: bolder; 
+            font-size: 30px;
+          }
+        }
+      }
+  
+      a {
+        text-align: right;
+        color: white;
+        text-decoration: underline;
+      }
+      a:hover {
+          text-align: right;
+          color: rgb(23, 232, 23);
+          cursor: pointer;
+        }
+    }
+  }
+  
