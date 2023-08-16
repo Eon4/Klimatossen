@@ -6,6 +6,9 @@
     background-color: #738699; 
     display: grid;
     justify-items: end;
+    position:absolute;
+    bottom:228px;
+    width: 100%;
     div {
         // margin: 0;
         // display: grid;
@@ -13,13 +16,21 @@
         // align-items: end;
         // grid-template-columns: repeat(5, 1fr);
         // width: 30%;
+
+        li {
+            color: pink;
+
+            
+        }
         a {
             font-family: sans-serif;
             color: rgb(255, 255, 255);
             // margin: 4px;
             font-size: 1.5em;
-            word-spacing: 5px;
+            // word-spacing: 0.2px;
             cursor: pointer;
+            margin: 40px;
+
         }
         a:hover{
             color: #bbbf8f;

@@ -2,13 +2,19 @@
   background-color: #738699;
   display: grid;
   justify-items: end;
+  position: absolute;
+  bottom: 228px;
+  width: 100%;
+}
+.navStyle div li {
+  color: pink;
 }
 .navStyle div a {
   font-family: sans-serif;
   color: rgb(255, 255, 255);
   font-size: 1.5em;
-  word-spacing: 5px;
   cursor: pointer;
+  margin: 40px;
 }
 .navStyle div a:hover {
   color: #bbbf8f;

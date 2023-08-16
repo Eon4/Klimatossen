@@ -1,13 +1,16 @@
 import style from "../style/CO2.module.scss";
+import cloud from "../assets/images/icon-CO2.png"
+
 
 export function CO2() {
   return (
     <section className={style.co2}>
       <article>
         <h2>HVAD ER CO2?</h2>
+        <img src={cloud} alt="Cloud" />
+
         <p>
 CO2 er en gasart der findes naturligt i Jordens atmosfære.
-
 
 - CO2, findes naturligt i atmosfæren.
 - Livet, er afhængigt af CO2 da det regulerer temperaturen på Jorden.
