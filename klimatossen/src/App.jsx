@@ -8,11 +8,16 @@ import { Environment } from './components/environment';
 import { Contribute } from './components/contribute';
 import { Arrangement } from './components/arrangement';
 import { Footer } from './components/footer';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 
 
 export const App = () => {
   return (
-    <>
+    <BrowserRouter>
+       <Routes>
+
+    
       <Header/>
       <Navigation />
       <Intro/>
@@ -21,6 +26,9 @@ export const App = () => {
       <Contribute/>
       <Arrangement/>
       <Footer/>
-    </>
+
+       </Routes>
+      </BrowserRouter>
+
   );
 };
