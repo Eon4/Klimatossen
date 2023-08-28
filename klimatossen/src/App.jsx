@@ -14,10 +14,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 export const App = () => {
   return (
-    <BrowserRouter>
-       <Routes>
-
-    
+    <>
       <Header/>
       <Navigation />
       <Intro/>
@@ -26,9 +23,6 @@ export const App = () => {
       <Contribute/>
       <Arrangement/>
       <Footer/>
-
-       </Routes>
-      </BrowserRouter>
-
+    </>
   );
 };
